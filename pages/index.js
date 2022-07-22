@@ -22,7 +22,7 @@ const DUMMY_MEETUPS = [
 ];
 
 function HomePage() {
-  return <Layout><MeetupList meetups={DUMMY_MEETUPS} /></Layout>;
+  return <MeetupList meetups={DUMMY_MEETUPS} />;
   
 }
 
